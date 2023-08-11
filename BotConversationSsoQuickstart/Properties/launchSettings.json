@@ -1,27 +1,38 @@
 {
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:3978/",
-      "sslPort": 0
-    }
-  },
-  "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "AuthenticationBot": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "http://localhost:3978/"
-    }
-  }
+	"profiles": {
+		"IIS Express": {
+			"commandName": "IISExpress",
+			"launchBrowser": true,
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Development"
+			}
+		},
+		"AuthenticationBot": {
+			"commandName": "Project",
+			"launchBrowser": true,
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Development"
+			},
+			"applicationUrl": "http://localhost:3978/"
+		},
+		"Microsoft Teams (browser)": {
+			"commandName": "Project",
+			"launchBrowser": true,
+			"launchUrl": "https://teams.microsoft.com/l/app/69058249-b809-4eec-aecd-aa7a896ab849?installAppPackage=true&webjoin=true&appTenantId=bf805346-44e7-43f7-8e60-c5e24aefe49c&login_hint=_admin@6plbfs.onmicrosoft.com",
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Development"
+			},
+			"dotnetRunMessages": true,
+			"applicationUrl": "http://localhost:3978",
+			"hotReloadProfile": "aspnetcore"
+		}
+	},
+	"iisSettings": {
+		"windowsAuthentication": false,
+		"anonymousAuthentication": true,
+		"iisExpress": {
+			"applicationUrl": "http://localhost:60796/",
+			"sslPort": 44340
+		}
+	}
 }
